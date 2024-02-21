@@ -1,0 +1,9 @@
+let personName :string = '';
+
+personName = prompt("What is your name?") || '';
+
+if(personName !== null && personName !== ''){
+    alert(`Hello ${personName} would you like to leran some Python today?`)
+}else{
+    alert('You have to full your name !')
+}
